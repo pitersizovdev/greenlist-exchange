@@ -1,5 +1,5 @@
 
-.nav-pill-wrapper {
+.navPillWrapper {
     width: 218px;
     height: 56px;
     flex-direction: column;
@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.nav-indicator-glow {
+.navIndicatorGlow {
     width: 24px;
     height: 4px;
     background-color: #fff;
@@ -18,7 +18,7 @@
     box-shadow: 0 2px 25px 2px #fff;
 }
 
-.nav-pill {
+.navPill{
     width: 180px;
     height: 48px;
     -webkit-backdrop-filter: blur(15px);
@@ -35,38 +35,3 @@
     position: relative;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
-
-.nav-toggle {
-    width: 80px;
-    height: 36px;
-    color: #fafafa;
-    text-align: center;
-    border-radius: 18px;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
-    display: flex;
-}
-
-.w-inline-block {
-    max-width: 100%;
-    display: inline-block;
-}
-
-a {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.text-nav-toggle {
-    text-align: center;
-    letter-spacing: 0.2px;
-    font-family: Neue Montreal, sans-serif;
-    font-weight: 500;
-    line-height: 18px;
-}
-
-* {
-    box-sizing: border-box;
-}
-

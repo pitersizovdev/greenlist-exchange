@@ -1,5 +1,5 @@
 import styles from './app.module.css'
-import NavPill from './components/widgets/nav/NavPill';
+import NavPill from './components/widgets/NavPill/NavPill';
 
 function App() {
   return (
