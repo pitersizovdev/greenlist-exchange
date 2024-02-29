@@ -2,3 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  background: #1a202e;
+}
+
+button{
+  background-color: #18A974;
+  color: #fafafa;
+}
