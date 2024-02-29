@@ -1,10 +1,10 @@
 import styles from './app.module.css'
-import NavPill from './components/widgets/NavPill/NavPill';
+import NavBar from './components/widgets/NavBar/NavBar';
 
 function App() {
   return (
     <div className={styles.container}>
-      <NavPill/>
+      <NavBar/>
     </div>
   );
 }

@@ -1,0 +1,41 @@
+
+.navPillWrapper {
+    flex-direction: column;
+    display: flex;
+}
+.navLogo {
+    order: -1;
+    color: #18A974;
+}
+.navList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #fafafa;
+}
+.navUl{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+.navPill{
+    backdrop-filter: blur(15px);
+    background-color: rgba(242, 242, 242, 0.05);
+    border: 1px solid rgba(122, 122, 122, 0.05);
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 8px 16px;
+    display: flex;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.navIndicatorGlow {
+    width: 24px;
+    height: 4px;
+    background-color: #18A974;
+    box-shadow: 0px -10px 25px rgb(26, 211, 66);
+    border-radius: 2px;
+    margin: -2px 0 0 33px;
+}
